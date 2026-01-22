@@ -1,20 +1,20 @@
 {
-  "name": "zbelqcraft",
-  "id": "jp.zbelqcraft",
-  "url": "https://github.com/zbelqcraft/ZbaleAdjuster",
-  "author": "zbelq",
-  "packages": {
-    "jp.zbelq.zbale-adjuster": {
-      "displayName": "Zbale Adjuster",
-      "description": "Utility tool for copying Transform and ModularAvatar ScaleAdjuster between bone hierarchies.",
-      "versions": {
-        "0.1.0": {
-          "url": "https://github.com/zbelqcraft/ZbaleAdjuster.git",
-          "dependencies": {
-            "nadena.dev.modular-avatar": ">=1.9.0"
-          }
+    "name": "zbelqcraft",
+    "id": "jp.zbelqcraft",
+    "url": "https://github.com/zbelqcraft/ZbaleAdjuster",
+    "author": "zbelq",
+    "packages": {
+        "jp.zbelq.zbale-adjuster": {
+            "displayName": "Zbale Adjuster",
+            "description": "Utility tool for copying Transform and ModularAvatar ScaleAdjuster between bone hierarchies.",
+            "versions": {
+                "1.0.0": {
+                    "url": "https://github.com/zbelqcraft/ZbaleAdjuster/archive/refs/tags/v1.0.0.zip",
+                    "dependencies": {
+                        "nadena.dev.modular-avatar": ">=1.9.0"
+                    }
+                }
+            }
         }
-      }
     }
-  }
 }

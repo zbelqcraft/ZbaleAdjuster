@@ -38,11 +38,11 @@ Bone utility tool for VRChat avatars.
 
 ### インストール方法（VCC）
 
-1. VRChat Creator Companion を起動
-2. **Settings → Packages → Add Repository**
-3. 以下のURLを追加  
-https://github.com/zbelqcraft/ZbaleAdjuster
-4. Packages タブから **Zbale Adjuster** をインストール
+### VCC ワンクリック追加
+
+VRChat Creator Companion に ZbaleAdjuster のリポジトリを直接追加できます。  
+👉 [VCC に追加](vcc://vpm/addRepo?url=https://github.com/zbelqcraft/ZbaleAdjuster/raw/main/vpm.json)
+
 
 ---
 
@@ -101,11 +101,11 @@ The tool is designed with simplicity and safety in mind.
 
 ### Installation (VCC)
 
-1. Open VRChat Creator Companion
-2. Go to **Settings → Packages → Add Repository**
-3. Add the following URL:  
-https://github.com/zbelqcraft/ZbaleAdjuster
-4. Install **Zbale Adjuster** from the Packages tab
+### One-click VCC Install
+
+Click the link below to add the ZbaleAdjuster repository directly to VRChat Creator Companion.  
+👉 [Add to VCC](vcc://vpm/addRepo?url=https://github.com/zbelqcraft/ZbaleAdjuster/raw/main/vpm.json)
+
 
 ---
 
