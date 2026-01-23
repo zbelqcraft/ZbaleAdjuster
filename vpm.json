@@ -2,7 +2,7 @@
     "name": "zbelqcraft",
     "id": "jp.zbelqcraft",
     "author": "zbelq",
-    "url": "https://zbelqcraft.github.io/ZbaleAdjuster/vpm.json",
+    "url": "https://zbelqcraft.github.io/AvatarBoneSync/vpm.json",
     "packages": {
         "jp.zbelqcraft.avatar-bone-sync-ma": {
             "versions": {
@@ -12,7 +12,7 @@
                     "displayName": "AvatarBoneSync for MA",
                     "description": "Synchronize avatar bone transforms and ModularAvatar ScaleAdjusters between armatures.",
                     "unity": "2022.3",
-                    "url": "https://github.com/zbelqcraft/ZbaleAdjuster/archive/refs/tags/v1.0.0.zip",
+                    "url": "https://github.com/zbelqcraft/AvatarBoneSync/archive/refs/tags/v1.0.0.zip",
                     "dependencies": {
                         "nadena.dev.modular-avatar": ">=1.9.0"
                     }
