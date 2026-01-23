@@ -1,8 +1,8 @@
 {
     "name": "zbelqcraft",
-    "id": "jp.zbelqcraft",
-    "author": "zbelq",
-    "url": "https://zbelqcraft.github.io/AvatarBoneSync/vpm.json",
+    "id": "jp.zbelqcraft.vpm",
+    "author": "zbelqcraft",
+    "url": "https://zbelqcraft.github.io/vpm-repos/vpm.json",
     "packages": {
         "jp.zbelqcraft.avatar-bone-sync-ma": {
             "versions": {
@@ -12,7 +12,9 @@
                     "displayName": "AvatarBoneSync for MA",
                     "description": "Synchronize avatar bone transforms and ModularAvatar ScaleAdjusters between armatures.",
                     "unity": "2022.3",
+                    "license": "MIT",
                     "url": "https://github.com/zbelqcraft/AvatarBoneSync/archive/refs/tags/v1.0.0.zip",
+                    "repo": "https://zbelqcraft.github.io/vpm-repos/vpm.json",
                     "dependencies": {
                         "nadena.dev.modular-avatar": ">=1.9.0"
                     }

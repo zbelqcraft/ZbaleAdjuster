@@ -6,8 +6,16 @@
     "type": "tool",
     "description": "Synchronize avatar bone transforms and ModularAvatar ScaleAdjusters between armatures.",
     "author": {
-        "name": "zbelq"
+        "name": "zbelq",
+        "url": "https://github.com/zbelqcraft"
     },
+    "license": "MIT",
+    "keywords": [
+        "VRChat",
+        "ModularAvatar",
+        "Bone",
+        "Editor"
+    ],
     "vpmDependencies": {
         "nadena.dev.modular-avatar": ">=1.9.0"
     }
