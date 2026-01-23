@@ -3,12 +3,12 @@ using UnityEditor;
 using System.Collections.Generic;
 using System.Reflection;
 
-public static class ZbaleAdjuster
+public static class AvatarBoneSync
 {
     // ===============================
     // Entry Point（右クリック）
     // ===============================
-    [MenuItem("GameObject/ZbaleAdjuster/Execution", false, 20)]
+    [MenuItem("GameObject/Avatar Bone Sync for MA/Execution", false, 20)]
     private static void Execute(MenuCommand command)
     {
         GameObject start =
@@ -22,7 +22,7 @@ public static class ZbaleAdjuster
         Component mergeArmature = FindMergeArmatureDownwards(start.transform);
         if (mergeArmature == null)
         {
-            Debug.LogWarning("ZbaleAdjuster: ModularAvatar MergeArmature が見つかりません");
+            Debug.LogWarning("AvatarBoneSync: ModularAvatar MergeArmature が見つかりません");
             return;
         }
 
@@ -32,22 +32,22 @@ public static class ZbaleAdjuster
 
         if (sourceRoot == null)
         {
-            Debug.LogWarning("ZbaleAdjuster: mergeTarget から Transform を取得できません");
+            Debug.LogWarning("AvatarBoneSync: mergeTarget から Transform を取得できません");
             return;
         }
 
         Undo.RegisterFullObjectHierarchyUndo(
             targetRoot.gameObject,
-            "ZbaleAdjuster Execution"
+            "AvatarBoneSync for MA Execution"
         );
 
         CopyRecursive(sourceRoot, targetRoot);
 
         EditorUtility.SetDirty(targetRoot.gameObject);
-        Debug.Log("ZbaleAdjuster: Execution 完了");
+        Debug.Log("AvatarBoneSync: Execution 完了");
     }
 
-    [MenuItem("GameObject/ZbaleAdjuster/Execution", true)]
+    [MenuItem("GameObject/Avatar Bone Sync for MA/Execution", true)]
     private static bool Validate()
     {
         return Selection.activeGameObject != null;

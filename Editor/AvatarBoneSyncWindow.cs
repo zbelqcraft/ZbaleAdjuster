@@ -3,7 +3,7 @@ using UnityEditor;
 using System.Collections.Generic;
 using System.Linq;
 
-public class ZbaleAdjusterWindow : EditorWindow
+public class AvatarBoneSyncWindow : EditorWindow
 {
     // ===============================
     // Mode
@@ -46,10 +46,10 @@ public class ZbaleAdjusterWindow : EditorWindow
     // ===============================
     // Window
     // ===============================
-    [MenuItem("Tools/ZbaleAdjuster")]
+    [MenuItem("Tools/Avatar Bone Sync for MA")]
     public static void Open()
     {
-        GetWindow<ZbaleAdjusterWindow>("ZbaleAdjuster");
+        GetWindow<AvatarBoneSyncWindow>("Avatar Bone Sync for MA");
     }
 
     // ===============================
@@ -220,7 +220,7 @@ public class ZbaleAdjusterWindow : EditorWindow
         {
             Undo.RegisterFullObjectHierarchyUndo(
                 targetRoot.gameObject,
-                "ZbaleAdjuster Copy"
+                "AvatarBoneSync Copy"
             );
 
             CopyRecursive(sourceRoot, targetRoot);
