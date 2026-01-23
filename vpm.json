@@ -1,21 +1,25 @@
 {
-    "name": "jp.zbelqcraft.avatar-bone-sync-ma",
-    "version": "1.0.0",
-    "displayName": "AvatarBoneSync for MA",
-    "description": "Synchronize avatar bone transforms and ModularAvatar ScaleAdjusters between armatures.",
-    "unity": "2022.3",
-    "author": {
-        "name": "zbelqcraft",
-        "url": "https://github.com/zbelqcraft"
-    },
-    "license": "MIT",
-    "keywords": [
-        "VRChat",
-        "ModularAvatar",
-        "Bone",
-        "Editor"
-    ],
-    "dependencies": {
-        "nadena.dev.modular-avatar": ">=1.9.0"
+    "name": "zbelqcraft",
+    "id": "jp.zbelqcraft.vpm",
+    "author": "zbelqcraft",
+    "url": "https://zbelqcraft.github.io/AvatarBoneSync/vpm.json",
+    "packages": {
+        "jp.zbelqcraft.avatar-bone-sync-ma": {
+            "versions": {
+                "1.0.0": {
+                    "name": "jp.zbelqcraft.avatar-bone-sync-ma",
+                    "version": "1.0.0",
+                    "displayName": "AvatarBoneSync for MA",
+                    "description": "Synchronize avatar bone transforms and ModularAvatar ScaleAdjusters between armatures.",
+                    "unity": "2022.3",
+                    "license": "MIT",
+                    "dependencies": {
+                        "nadena.dev.modular-avatar": ">=1.9.0"
+                    },
+                    "url": "https://github.com/zbelqcraft/AvatarBoneSync/releases/download/v1.0.0/jp.zbelqcraft.avatar-bone-sync-ma-1.0.0.zip",
+                    "repo": "https://zbelqcraft.github.io/AvatarBoneSync/vpm.json"
+                }
+            }
+        }
     }
 }
