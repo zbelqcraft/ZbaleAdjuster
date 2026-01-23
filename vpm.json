@@ -16,17 +16,6 @@
                     "dependencies": {
                         "nadena.dev.modular-avatar": ">=1.9.0"
                     }
-                },
-                "1.0.1": {
-                    "name": "jp.zbelqcraft.avatar-bone-sync-ma",
-                    "version": "1.0.1",
-                    "displayName": "AvatarBoneSync for MA",
-                    "description": "Synchronize avatar bone transforms and ModularAvatar ScaleAdjusters between armatures.",
-                    "unity": "2022.3",
-                    "url": "https://github.com/zbelqcraft/AvatarBoneSync/archive/refs/tags/v1.0.1.zip",
-                    "dependencies": {
-                        "nadena.dev.modular-avatar": ">=1.9.0"
-                    }
                 }
             }
         }
