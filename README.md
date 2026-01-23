@@ -1,4 +1,4 @@
-# Zbale Adjuster
+# Avatar Bone Sync for MA
 
 VRChatアバター向けのボーン調整支援ツールです。  
 Bone utility tool for VRChat avatars.  
@@ -10,7 +10,7 @@ Bone utility tool for VRChat avatars.
 ## 日本語
 
 ### 概要
-**Zbale Adjuster** は、VRChatアバターのボーン構造間で  
+**Avatar Bone Sync for MA** は、VRChatアバターのボーン構造間で  
 以下の要素を安全にコピーするための Editor 拡張ツールです。
 
 - Transform（Position / Rotation / Scale）
@@ -40,8 +40,8 @@ Bone utility tool for VRChat avatars.
 
 ### VCC ワンクリック追加
 
-VRChat Creator Companion に ZbaleAdjuster のリポジトリを直接追加できます。  
-👉 [VCC に追加](vcc://vpm/addRepo?url=https://github.com/zbelqcraft/ZbaleAdjuster/raw/main/vpm.json)
+VRChat Creator Companion に Avatar Bone Sync for MA のリポジトリを直接追加できます。  
+👉 [VCC に追加](vcc://vpm/addRepo?url=https://github.com/zbelqcraft/AvatarBoneSync/raw/main/vpm.json)
 
 
 ---
@@ -50,12 +50,12 @@ VRChat Creator Companion に ZbaleAdjuster のリポジトリを直接追加で�
 
 #### Execution版（おすすめ）
 1. Hierarchy 上の任意のオブジェクトを右クリック
-2. **ZbaleAdjuster → Execution**
+2. **Avatar Bone Sync for MA → Execution**
 3. ModularAvatar MergeArmature を自動検出して実行
 
 #### Tool版
 1. Unity メニューから  
-   **Tools → ZbaleAdjuster**
+   **Tools → Avatar Bone Sync for MA**
 2. コピー元とコピー先を指定
 3. 必要な設定を選択して実行
 
@@ -71,7 +71,7 @@ VRChat Creator Companion に ZbaleAdjuster のリポジトリを直接追加で�
 ## English
 
 ### Overview
-**Zbale Adjuster** is an Editor utility tool for VRChat avatars.  
+**Avatar Bone Sync for MA** is an Editor utility tool for VRChat avatars.  
 It safely copies the following elements between bone hierarchies:
 
 - Transform (Position / Rotation / Scale)
@@ -103,8 +103,8 @@ The tool is designed with simplicity and safety in mind.
 
 ### One-click VCC Install
 
-Click the link below to add the ZbaleAdjuster repository directly to VRChat Creator Companion.  
-👉 [Add to VCC](vcc://vpm/addRepo?url=https://github.com/zbelqcraft/ZbaleAdjuster/raw/main/vpm.json)
+Click the link below to add the Avatar Bone Sync for MA repository directly to VRChat Creator Companion.  
+👉 [Add to VCC](vcc://vpm/addRepo?url=https://github.com/zbelqcraft/AvatarBoneSync/raw/main/vpm.json)
 
 
 ---
@@ -112,13 +112,13 @@ Click the link below to add the ZbaleAdjuster repository directly to VRChat Crea
 ### Usage
 
 #### Tool Version
-1. Open **Tools → ZbaleAdjuster**
+1. Open **Tools → Avatar Bone Sync for MA**
 2. Assign source and target Transforms
 3. Configure settings and execute
 
 #### Execution Version (Recommended)
 1. Right-click an object in the Hierarchy
-2. Select **ZbaleAdjuster → Execution**
+2. Select **Avatar Bone Sync for MA → Execution**
 3. The tool automatically finds MergeArmature and executes
 
 ---
