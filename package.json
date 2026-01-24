@@ -1,6 +1,6 @@
 {
     "name": "jp.zbelqcraft.avatar-bone-sync-ma",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "displayName": "AvatarBoneSync for MA",
     "description": "Synchronize avatar bone transforms and ModularAvatar ScaleAdjusters between armatures.",
     "unity": "2022.3",
