@@ -6,9 +6,9 @@
     "packages": {
         "jp.zbelqcraft.avatar-bone-sync-ma": {
             "versions": {
-                "1.0.2": {
+                "1.0.3": {
                     "name": "jp.zbelqcraft.avatar-bone-sync-ma",
-                    "version": "1.0.2",
+                    "version": "1.0.3",
                     "displayName": "AvatarBoneSync for MA",
                     "description": "Synchronize avatar bone transforms and ModularAvatar ScaleAdjusters between armatures.",
                     "unity": "2022.3",
@@ -16,20 +16,7 @@
                     "dependencies": {
                         "nadena.dev.modular-avatar": ">=1.9.0"
                     },
-                    "url": "https://github.com/zbelqcraft/AvatarBoneSync/releases/download/v1.0.0/jp.zbelqcraft.avatar-bone-sync-ma-1.0.2.zip?",
-                    "repo": "https://zbelqcraft.github.io/AvatarBoneSync/vpm.json"
-                },
-                "1.0.0": {
-                    "name": "jp.zbelqcraft.avatar-bone-sync-ma",
-                    "version": "1.0.0",
-                    "displayName": "AvatarBoneSync for MA",
-                    "description": "Synchronize avatar bone transforms and ModularAvatar ScaleAdjusters between armatures.",
-                    "unity": "2022.3",
-                    "license": "MIT",
-                    "dependencies": {
-                        "nadena.dev.modular-avatar": ">=1.9.0"
-                    },
-                    "url": "https://github.com/zbelqcraft/AvatarBoneSync/releases/download/v1.0.0/jp.zbelqcraft.avatar-bone-sync-ma-1.0.0.zip",
+                    "url": "https://github.com/zbelqcraft/AvatarBoneSync/releases/download/v1.0.3/jp.zbelqcraft.avatar-bone-sync-ma-1.0.3.zip",
                     "repo": "https://zbelqcraft.github.io/AvatarBoneSync/vpm.json"
                 }
             }

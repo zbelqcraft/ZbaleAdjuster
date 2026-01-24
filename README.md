@@ -30,7 +30,7 @@ Bone utility tool for VRChat avatars.
 
 ### 動作環境
 
-- Unity 2019.4 以上
+- Unity 2022.3 以上
 - VRChat Creator Companion
 - Modular Avatar
 
@@ -41,7 +41,7 @@ Bone utility tool for VRChat avatars.
 ### VCC ワンクリック追加
 
 VRChat Creator Companion に Avatar Bone Sync for MA のリポジトリを直接追加できます。  
-👉 [VCC に追加](vcc://vpm/addRepo?url=https://github.com/zbelqcraft/AvatarBoneSync/raw/main/vpm.json)
+👉 [VCC に追加](vcc://vpm/addRepo?url=https://zbelqcraft.github.io/AvatarBoneSync/vpm.json)
 
 
 ---
@@ -56,7 +56,7 @@ VRChat Creator Companion に Avatar Bone Sync for MA のリポジトリを直接
 #### Tool版
 1. Unity メニューから  
    **Tools → Avatar Bone Sync for MA**
-2. コピー元とコピー先を指定
+2. コピー元ボーンとコピー先ボーンを指定
 3. 必要な設定を選択して実行
 
 ---
@@ -93,7 +93,7 @@ The tool is designed with simplicity and safety in mind.
 
 ### Requirements
 
-- Unity 2019.4 or later
+- Unity 2022.3 or later
 - VRChat Creator Companion
 - Modular Avatar
 
@@ -104,7 +104,7 @@ The tool is designed with simplicity and safety in mind.
 ### One-click VCC Install
 
 Click the link below to add the Avatar Bone Sync for MA repository directly to VRChat Creator Companion.  
-👉 [Add to VCC](vcc://vpm/addRepo?url=https://github.com/zbelqcraft/AvatarBoneSync/raw/main/vpm.json)
+👉 [Add to VCC](vcc://vpm/addRepo?url=https://zbelqcraft.github.io/AvatarBoneSync/vpm.json)
 
 
 ---
