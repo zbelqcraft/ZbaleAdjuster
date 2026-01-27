@@ -41,8 +41,7 @@ Bone utility tool for VRChat avatars.
 ### VCC ワンクリック追加
 
 VRChat Creator Companion に Avatar Bone Sync for MA のリポジトリを直接追加できます。  
-[VCC に追加](vcc://vpm/addRepo?url=https://zbelqcraft.github.io/AvatarBoneSync/vpm.json)
-
+[VCCに追加](vcc://vpm/addRepo?url=https://zbelqcraft.github.io/AvatarBoneSync/vpm.json)
 
 ---
 
@@ -109,7 +108,7 @@ The tool is designed with simplicity and safety in mind.
 ### One-click VCC Install
 
 Click the link below to add the Avatar Bone Sync for MA repository directly to VRChat Creator Companion.  
-[Add to VCC](vcc://vpm/addRepo?url=https://zbelqcraft.github.io/AvatarBoneSync/vpm.json)
+[Add_to_VCC](vcc://vpm/addRepo?url=https://zbelqcraft.github.io/AvatarBoneSync/vpm.json)
 
 
 ---
