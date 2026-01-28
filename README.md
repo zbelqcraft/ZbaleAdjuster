@@ -41,14 +41,15 @@ Bone utility tool for VRChat avatars.
 ### VCC ワンクリック追加
 
 VRChat Creator Companion に Avatar Bone Sync for MA のリポジトリを直接追加できます。  
-[VCCに追加](vcc://vpm/addRepo?url=https://zbelqcraft.github.io/AvatarBoneSync/vpm.json)
+以下のリンクを全文コピーして、ブラウザのURL欄に貼り付けてください。  
+vcc://vpm/addRepo?url=https://zbelqcraft.github.io/AvatarBoneSync/vpm.json
 
 ---
 
 ### 使い方（基本）
 
 #### Execution版（おすすめ）
-1. Hierarchy 上の任意のオブジェクトを右クリック
+1. Hierarchy 上のボーンをコピーしたいオブジェクト(衣装など)を右クリック
 2. **Modular Avatar → Setup Outfit**
 3. 同じオブジェクトを再度右クリック
 4. **Avatar Bone Sync for MA → Execution**
